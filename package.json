@@ -1,22 +1,18 @@
 {
-  "name": "react-starter",
+  "name": "grid-users-list",
   "version": "1.0.0",
   "description": "Template repo to start frontend projects from",
   "main": "src/index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --open",
     "build": "NODE_ENV=production webpack",
-    "lint": "eslint --ext .js src test",
-    "lint:fix": "eslint --fix --ext .js src test; exit 0",
-    "prettier": "prettier '{src,test}/**/*.js' --check",
-    "prettier:fix": "prettier '{src,test}/**/*.js' --write"
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --fix --ext .js src; exit 0",
+    "prettier": "prettier 'src/**/*.js' --check",
+    "prettier:fix": "prettier 'src/**/*.js' --write"
   },
   "lint-staged": {
     "src/**/*.js": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "test/**/*.js": [
       "prettier --write",
       "eslint --fix"
     ]
@@ -24,16 +20,16 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run prettier && npm run lint && npm run test:ci"
+      "pre-push": "npm run prettier && npm run lint"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KreditechSSL/react-starter.git"
+    "url": "git+https://github.com/KreditechSSL/grid-users-list.git"
   },
   "author": "Kasia Zadurska",
   "license": "ISC",
-  "homepage": "https://github.com/KreditechSSL/react-starter#readme",
+  "homepage": "https://github.com/KreditechSSL/grid-users-list#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "prop-types": "15.7.2",

@@ -1,4 +1,4 @@
-# react-starter
+# grid-users-list
 
 ## Usage
 
