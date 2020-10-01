@@ -1,14 +1,25 @@
 # grid-users-list
 
-## Usage
+## Task
 
-🚧Work in progress 🚧
+TBD in English
+
+### What I did not do because of time constraints:
+
+ - no yellow square animation
+ - no grid usage (I am not familiar with it)
+
+## Installation
+
+```bash
+git clone git@github.com:kzadurska/grid-users-table.git
+cd grid-users-table
+npm ci
+```
 
 ## Development
 
-* `npm ci`
 * `npm start`
-
 The app will be available at http://0.0.0.0:8080/
 
 ## Contributing
@@ -30,8 +41,5 @@ We have two git hooks set up to lint and test files
 * `Pre-commit` - run prettier and eslint on files staged for commit, add modified/fixed files to commit
 * `Pre-push` - run prettier, eslint and jest on all files. Push will fail if any of these fail.
 
-#### Insightful links on code review process
- - [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
- - [How to write the perfect pull request](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/)
- - [The anatomy of a pull request](https://medium.com/@hugooodias/the-anatomy-of-a-perfect-pull-request-567382bb6067)
- - [On Writing a Great Pull Request](https://blog.codeminer42.com/on-writing-a-great-pull-request-37c60ce6f31d)
+## Deployment
+Run `npm run deploy` and go to https://kzadurska.github.io/grid-users-table/
