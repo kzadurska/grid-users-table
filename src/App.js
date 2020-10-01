@@ -1,6 +1,7 @@
 import React from 'react';
 import { GlobalStyles } from 'styles';
 import { Page, Header, Footer, Main, Banner, AnimatedSquare } from 'components/Layout';
+import UsersTable from 'components/Table';
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
               <AnimatedSquare>E</AnimatedSquare>
             </Banner>
 
-            <div>table here</div>
+            <UsersTable css="margin: 32px;" />
           </div>
         </Main>
 
