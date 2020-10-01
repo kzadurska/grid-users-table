@@ -4,10 +4,11 @@
 
 TBD in English
 
-### What I did not do because of time constraints:
+### What I did not do:
 
- - no yellow square animation
+ - no yellow square animation (time constraints)
  - no grid usage (I am not familiar with it)
+ - no form clearing
 
 ## Installation
 
